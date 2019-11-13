@@ -12,19 +12,19 @@
 * 在[博客园](https://www.cnblogs.com)的官网左上角开通博客园
 * 博客园的个人配置页面->先申请js权限
 
-![Snipaste_2019-11-13_14-41-38](E:\博客园\sun\img\Snipaste_2019-11-13_14-41-38.png)
+![Snipaste_2019-11-13_14-41-38](https://github.com/2662419405/cnblogs/blob/master/img/Snipaste_2019-11-13_14-41-38.png)
 
 * 禁用页面的css样式
 
-![Snipaste_2019-11-13_14-42-25](E:\博客园\sun\img\Snipaste_2019-11-13_14-42-25.png)
+![Snipaste_2019-11-13_14-42-25](https://github.com/2662419405/cnblogs/blob/master/img/Snipaste_2019-11-13_14-42-25.png)
 
-* 粘贴一下代码到定制页面css代码中 [css](../css/sh.css)
+* 粘贴一下代码到定制页面css代码中 [css](/css/sh.css)
 
-* 粘贴博客侧面公告代码[侧面html](../html/left.html)
+* 粘贴博客侧面公告代码[侧面html](/html/left.html)
 
-* 粘贴页首代码 [页面html](../html/header.html)
+* 粘贴页首代码 [页面html](/html/header.html)
 
-* 粘贴页脚代码 [页脚html](../html/footer.html)
+* 粘贴页脚代码 [页脚html](/html/footer.html)
 
 
 
