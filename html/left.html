@@ -1,0 +1,362 @@
+<!-- menu html -->
+<div class="container">
+    <div class="menu-wrap optiscroll" id="menuWrap" style="display:none">
+        <nav class="menu">
+
+            <!-- 个人简介 -->
+            <div class="introduce-box">
+                <div class="introduce-head">
+                    <div class="introduce-via" id="menuBlogAvatar"></div>
+                </div>
+                <div id="introduce"></div>
+            </div>
+
+            <!-- 导航 -->
+            <div class="nav-title"></div>
+            <div class="icon-list">
+                <ul>
+                    <li><a href="https://www.cnblogs.com/sunhang32/" target="_self">首页</a></li>
+                    <li><a href="https://msg.cnblogs.com/send/sunhang32" target="_blank">联系</a></li>
+                    <li><a href="https://i.cnblogs.com/" target="_blank">管理</a></li>
+                    <li><a href="https://www.jianshu.com/u/3c7ad314336f" target="_blank">简书</a></li>
+                    <li><a href="https://github.com/2662419405" target="_blank">开源项目</a></li>
+                    <li><a href="https://blog.csdn.net/qq_43268396" target="_blank">CSDN</a></li>
+                    <li><a href="https://www.zhihu.com/people/can-meng-35-53-44/activities" target="_blank">知乎</a></li>
+                    <li><a href="https://2662419405.github.io/sh.github.io/" target="_blank">github.io</a></li>
+                </ul>
+            </div>
+
+            <!-- 最新随笔 -->
+            <div class="m-list-title"><span>最新随笔</span></div>
+            <div class="m-icon-list" id="sb-sidebarRecentposts"></div>
+
+            <!-- 我的标签 -->
+            <div class="m-list-title"><span>我的标签</span></div>
+            <div class="m-icon-list" id="sb-toptags"></div>
+
+            <!-- 随笔分类 -->
+            <div class="m-list-title"><span>随笔分类</span></div>
+            <div class="m-icon-list" id="sb-classify"></div>
+
+            <!-- 随笔档案 -->
+            <div class="m-list-title"><span>随笔档案</span></div>
+            <div class="m-icon-list" id="sb-record"></div>
+
+            <!-- 阅读排行 -->
+            <div class="m-list-title"><span>阅读排行</span></div>
+            <div class="m-icon-list" id="sb-topview"></div>
+
+            <!-- 推荐排行 -->
+            <div class="m-list-title"><span>推荐排行</span></div>
+            <div class="m-icon-list" id="sb-topDiggPosts"></div>
+
+        </nav>
+        <button class="close-button" id="close-button">Close Menu</button>
+        <div class="morph-shape" id="morph-shape" data-morph-open="M-7.312,0H15c0,0,66,113.339,66,399.5C81,664.006,15,800,15,800H-7.312V0z;M-7.312,0H100c0,0,0,113.839,0,400c0,264.506,0,400,0,400H-7.312V0z">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 800" preserveAspectRatio="none">
+                <path d="M-7.312,0H0c0,0,0,113.839,0,400c0,264.506,0,400,0,400h-7.312V0z"/>
+            </svg>
+        </div>
+    </div>
+    <button class="menu-button" id="open-button">MENU</button>
+    <div class="content-wrap" id="content-wrap"></div><!-- /content-wrap -->
+</div>
+<!-- menu html end -->
+
+<!-- banner html -->
+<div class="main-header">
+    <canvas id="notHomeTopCanvas" style=" position: absolute;margin: auto;width: 100%;height: 100%;top: 0;bottom: 0;left: 0;right: 0;"></canvas>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title cssf79d1841e1b313" id="homeTopTitle"></h1>
+            <h2 class="page-description" id="hitokoto"></h2>
+            <h3 class="page-author" id="hitokotoAuthor"></h3>
+        </div>
+    </div>
+    <a class="scroll-down" href="javascript:void(0);" data-offset="-45">
+        <span class="hidden">Scroll Down</span>
+        <i class="scroll-down-icon iconfont icon-fanhui"></i>
+    </a>
+</div>
+<!-- banner html end -->
+
+<!-- global var -->
+<script type="text/javascript">
+
+    /*!
+     * UPDATES AND DOCS AT: https://github.com/Zhou-Hepeng
+     * https://www.cnblogs.com/icaihua/
+     * @author: caihua, 512663864@qq.com
+     **/
+
+    /**
+     * 博客全局配置，请仔细配置，不了解的不要乱设置，不了解的不要乱设置，不了解的不要乱设置，默认就行！！
+     * PS: 加了个全局配置感觉耦合更严重了ヽ(￣▽￣)ﾉ，不管了，用的爽就行！！
+     */
+    window.cnblogsConfig = {
+
+        // ---- 基础信息配置 ----
+        blogUser      : "残梦°", // 博主名称
+        blogAvatar    : "http://studyit.club/Study/sh.jpg", // 用户头像URL
+        blogStartDate : "2019-11-07", // 入园时间，年-月-日，入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
+
+        // ---- 网站配置 ----
+        webpageTitleOnblur        : "(◍´꒳`◍)你为何狠心离去 ", // 当前页失去焦点，页面title显示文字
+        webpageTitleOnblurTimeOut : 500, // 当前页失去焦点，页面title变化，延时时间，单位毫秒
+        webpageTitleFocus         : "(*´∇｀*) 帅的人回来了！", // 当前页获取焦点，页面title显示文字，显示后延时恢复原title
+        webpageTitleFocusTimeOut  : 1000, // 当前页获取焦点，页面title变化，延时时间，单位毫秒
+        webpageIcon : "https://files.cnblogs.com/files/icaihua/blog_logo.gif", // 网站图标
+
+        // ---- 进度条配置 ----
+        progressBar: {
+            id      : 'top-progress-bar',
+            color   : '#77b6ff',
+            height  : '2px',
+            duration: 0.2
+        },
+
+        // ---- Loading配置 ----
+        loading: {
+            rebound: {
+                tension: 16,
+                friction: 5
+            },
+            spinner: {
+                id: 'spinner',
+                radius: 90,
+                sides: 3,
+                depth: 4,
+                colors: {
+                    background: '#f0f0f0',
+                    stroke: '#272633',
+                    base: null,
+                    child: '#272633'
+                },
+                alwaysForward: true, // When false the spring will reverse normally.
+                restAt: 0.5,         // A number from 0.1 to 0.9 || null for full rotation
+                renderBase: false
+            }
+        },
+
+
+        // ---- 页面动效配置 ----
+        isHomeTopAnimation: true, // true || false ,是否显示主页头图动效
+        homeTopAnimation: { // 主页头图动效设置
+            radius: 15,
+            density: 0.2,
+            color: 'rgba(255,255,255, .2)', // 颜色设置，“random” 为随机颜色
+            clearOffset: 0.3
+        },
+
+        isEssayTopAnimation: true, // true || false ,是否显示随笔页头图动效
+        essayTopAnimation: { // 随笔页头图动效设置
+            triW : 14,
+            triH : 20,
+            neighbours : ["side", "top", "bottom"],
+            speedTrailAppear : .1,
+            speedTrailDisappear : .1,
+            speedTriOpen : 1,
+            trailMaxLength : 30,
+            trailIntervalCreation : 100,
+            delayBeforeDisappear : 2,
+            colors: [
+                '#96EDA6', '#5BC6A9',
+                '#38668C', '#374D84',
+                '#BED5CB', '#62ADC6',
+                '#8EE5DE', '#304E7B'
+            ]
+        },
+
+        isBackgroundAnimation: true, // true || false ,是否显示背景动效
+        backgroundAnimation : { // 背景动效设置
+            colorSaturation: "60%",
+            colorBrightness: "50%",
+            colorAlpha: 0.5,
+            colorCycleSpeed: 5,
+            verticalPosition: "random",
+            horizontalSpeed: 200,
+            ribbonCount: 3,
+            strokeSize: 0,
+            parallaxAmount: -0.2,
+            animateSections: true
+        },
+
+        // ---- 主页配置 ----
+        homeTopImg    : "http://images.cnblogs.com/cnblogs_com/icaihua/1330033/o_o_wallhaven-698904.jpg", // 主页图片Url，推荐尺寸>= 1920*1080
+        homeBannerText: "", // 主页头图上的标语，设置此选项会固定显示文字，默认为空，每日自动获取一句。
+
+        // ---- 随笔页配置 ----
+        essayTopImg: "https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-569548.png", // 随笔页图片Url
+        essaySuffix:{ // 随笔后缀处配置
+            aboutHtml    : '', // 关于博主，不配置使用默认
+            copyrightHtml: '2019 copyright@canmeng', // 版权声明，不配置使用默认
+            supportHtml  : '样式为菜花君所写'  // 声援博主，不配置使用默认
+        },
+
+        // ---- 页脚配置 ----
+        bottomBlogroll: [ // 友情链接，[[链接名,链接]....]
+            ["侯大宝", 'https://www.cnblogs.com/houdabao/'],
+            ["申请坑位", 'https://msg.cnblogs.com/send/icaihua'],
+            ["申请坑位", 'https://msg.cnblogs.com/send/icaihua'],
+            ["申请坑位", 'https://msg.cnblogs.com/send/icaihua'],
+            ["申请坑位", 'https://msg.cnblogs.com/send/icaihua'],
+        ],
+        bottomText: {  // 页脚标语
+            left : "事实并非理所当然", // 图标左侧文字
+            right: "世界总是欲盖弥彰"  // 图标右侧文字
+        }
+
+    };
+
+    /**
+     * 资源文件配置
+     * source:"github" versions 处为GitHub提交版本哈希值 根据版本加载代码 https://github.com/Zhou-Hepeng/Cnblogs-Theme-SimpleMemory/commits/master
+     * source:"cnblogs" 从博客园文件加载代码，可以不配置版本号，本人博客园文件不会更新了（操作实在太麻烦了），如有需求可以从github上挡下来最新代码，保存到自己的博客园文件中进行加载
+     */
+    var staticFileSetting = {
+        source   : 'github',
+        versions : '3f3a10aadf27c5eb7f065d83a9c7ccb1e3aaef05', // 版本号
+    };
+
+    // start cache
+    $.ajaxSetup({cache: true});
+
+    // load loadingJs
+    $.getScript(getJsDelivrUrl('loading.js'), function () {
+
+        // Loading start
+        pageLoading.initRebound();
+        pageLoading.initSpinner();
+        pageLoading.spinner.init(pageLoading.spring, true);
+
+        $.getScript(getJsDelivrUrl('require.min.js'), function () {
+
+            $.getScript(getJsDelivrUrl('config.js'), function () {
+
+                var staticResource = [
+                    'optiscroll',
+                    'ToProgress',
+                    'rotate',
+                    'snapSvg',
+                    'classie',
+                    'main4',
+                    'tools',
+                ];
+                require(staticResource, function() {
+
+                    require(['base'], function() {
+
+                        var base = new Base;
+                        base.init();
+                    });
+                });
+
+            });
+
+        });
+    });
+
+    /**
+     * 文件地址
+     * @param file
+     * @param directory 文件目录名称
+     * @returns {string}
+     */
+    function getJsDelivrUrl(file, directory) {
+        file = setFileNameMin(file, directory);
+
+        switch (staticFileSetting.source) {
+
+            case 'github': // 注意：此处为GitHub加载源，如果需要加载自己分支的代码，修改此处URL，URL规则详见：https://www.jsdelivr.com/
+                return 'https://cdn.jsdelivr.net/gh/Zhou-Hepeng/Cnblogs-Theme-SimpleMemory@'+staticFileSetting.versions+'/' + (file ? file : '');
+                break;
+
+            case 'cnblogs': // 注意：此处为博客园加载源，加载本人博客文件为老版本。本人博客园文件停止更新，如果需要可以修改至自己博客园文件
+                return 'https://blog-static.cnblogs.com/files/icaihua/'+file;
+                break;
+
+            default:
+                return '';break;
+        }
+    }
+
+    /**
+     * 文件名
+     * @param file
+     * @param directory 文件目录名称
+     * @returns {*}
+     */
+    function setFileNameMin(file, directory) {
+        if (typeof file == 'undefined') return '';
+
+        var suffix  = null;
+        var fileArr = file.split('.');
+
+        if (fileArr.length > 0 && $.inArray(fileArr[(fileArr.length -1)], ['js', 'css']) != -1) {
+            suffix    = fileArr.pop();
+            directory = suffix;
+        }
+
+        switch (staticFileSetting.source) {
+
+            case 'github':
+
+                if (typeof file !== 'undefined' && file.search('.min') == -1) fileArr.push('min');
+
+                if (suffix != null) fileArr.push(suffix);
+
+                return (typeof directory !== 'undefined' ? (directory + '/' + fileArr.join('.')) : (fileArr.join('.')));
+                break;
+
+            case 'cnblogs':
+                if (suffix != null) fileArr.push(suffix);
+                return fileArr.join('.');
+                break;
+
+            default:
+                return file;break;
+        }
+    }
+</script>
+<!--动态线条背景-->
+<script type="text/javascript"
+color="220,220,220" opacity='0.7' zIndex="-2" count="500" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+</script>
+<!-- global var end -->
+<script type="text/javascript">
+var a_idx = 0;
+$("body").click(function(e) {
+    var a = new Array
+    (" 乁(๑˙ϖ˙๑乁)欢迎来到残梦的博客", "付出总有回报", "每一次的努力都是离的更进一步", "我走的很慢,但我从不后退", "今天的好计划胜过明天的完美计划", "有的人25岁死了,但75岁才被埋葬");
+    var $i = $("<span/>").text(a[a_idx]);
+    a_idx = (a_idx + 1) % a.length;
+    var x = e.pageX,
+    y = e.pageY;
+    var colorArr = ["#FF00FF", "#00CED1", "#0000EE", "#76EE00", "#CD00CD", "#EE9A00"]    //这里面自定义字体颜色
+    var colorArrCount = colorArr.length
+    var randomColor = colorArr[Math.floor(Math.random() * colorArrCount)]
+    $i.css({
+        "z-index": 5,
+        "top": y - 20,
+        "left": x,
+        "position": "absolute",
+        "font-weight": "bold",
+        "font-size":"16px",
+        "color": randomColor
+    });
+    $("body").append($i);
+    $i.animate({
+        "top": y - 180,
+        "opacity": 0
+    },
+	2200,
+	function() {
+	    $i.remove();
+	});
+});
+setTimeout('delay()', 2000);
+
+function delay() {
+    $(".buryit").removeAttr("onclick");
+}
+</script>
