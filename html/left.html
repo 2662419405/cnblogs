@@ -2,9 +2,6 @@
 <script type="text/javascript"
 color="220,220,220" opacity='0.7' zIndex="-2" count="500" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
 </script>
-<!-- global var end -->
-<script type="text/javascript" src="https://files.cnblogs.com/files/sunhang32/myText.js"></script>
-<script type="text/javascript" src="https://blog-static.cnblogs.com/files/sunhang32/myconsole.js"></script>
 <!-- menu html -->
 <div class="container">
     <div class="menu-wrap optiscroll" id="menuWrap" style="display:none">
@@ -205,15 +202,15 @@ color="220,220,220" opacity='0.7' zIndex="-2" count="500" src="//cdn.bootcss.com
             ["侯大宝", 'https://www.cnblogs.com/houdabao/'],
         ],
         bottomText: {  // 页脚标语
-            left : "事实并非理所当然", // 图标左侧文字
-            right: "世界总是欲盖弥彰"  // 图标右侧文字
+            left : "残缺的梦", // 图标左侧文字
+            right: "永恒的爱"  // 图标右侧文字
         }
 
     };
 
     /**
      * 资源文件配置
-     * source:"github" versions 处为GitHub提交版本哈希值 根据版本加载代码 https://github.com/Zhou-Hepeng/Cnblogs-Theme-SimpleMemory/commits/master
+     * source:"github" versions 处为GitHub提交版本哈希值 根据版本加载代码 
      * source:"cnblogs" 从博客园文件加载代码，可以不配置版本号，本人博客园文件不会更新了（操作实在太麻烦了），如有需求可以从github上挡下来最新代码，保存到自己的博客园文件中进行加载
      */
     var staticFileSetting = {
@@ -253,7 +250,10 @@ color="220,220,220" opacity='0.7' zIndex="-2" count="500" src="//cdn.bootcss.com
                         base.init();
                     });
                 });
-
+                
+                $.getScript('https://files.cnblogs.com/files/sunhang32/myText.js',function(){})
+                $.getScript('https://blog-static.cnblogs.com/files/sunhang32/myconsole.js',function(){})
+	
             });
 
         });
