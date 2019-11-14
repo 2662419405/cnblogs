@@ -48,7 +48,7 @@
 
 ### 手机效果图展示
 
-<img src="/img/show2.jpg" height="300px" />
+<img src="/img/show2.jpg" height="700px" />
 
 
 
