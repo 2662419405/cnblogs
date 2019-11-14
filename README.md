@@ -12,11 +12,11 @@
 * 在[博客园](https://www.cnblogs.com)的官网左上角开通博客园
 * 博客园的个人配置页面->先申请js权限
 
-![Snipaste_2019-11-13_14-41-38](https://github.com/2662419405/cnblogs/blob/master/img/Snipaste_2019-11-13_14-41-38.png)
+![Snipaste_2019-11-13_14-41-38](/img/Snipaste_2019-11-13_14-41-38.png)
 
 * 禁用页面的css样式
 
-![Snipaste_2019-11-13_14-42-25](https://github.com/2662419405/cnblogs/blob/master/img/Snipaste_2019-11-13_14-42-25.png)
+![Snipaste_2019-11-13_14-42-25](/img/Snipaste_2019-11-13_14-42-25.png)
 
 * 粘贴一下代码到定制页面css代码中 [css](/css/sh.css)
 
@@ -33,3 +33,4 @@
 
 
 ### 下面是DIV定制
+
