@@ -42,10 +42,10 @@ setInterval("createtime()",250);
           },
           "mobile": {
               "show": true,
-              "scale": 0.5
+              "scale": 0.4
           },
           "react": {
-              "opacityDefault": 0.7,<!--设置透明度-->
+              "opacityDefault": 0.5,<!--设置透明度-->
               "opacityOnHover": 0.2
           }
       });
@@ -53,3 +53,10 @@ window.onload=function(){
        $("#live2dcanvas").attr("style","display:block;position: fixed; opacity: 0.7; left: 70px; bottom: 0px; z-index: 1; pointer-events: none;")
 }
 </script>
+<!-- 线条效果 -->
+<script type="text/javascript"
+color="220,220,220" opacity='0.9' zIndex="-2" count="500" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+</script>
+<script type="text/javascript" src="https://blog-static.cnblogs.com/files/sunhang32/myconsole.js"></script>
+<!-- 文字显示 -->
+<script type="text/javascript" src="https://files.cnblogs.com/files/sunhang32/myText.js"></script>
