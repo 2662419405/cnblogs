@@ -136,7 +136,7 @@ setInterval("createtime()",250);
 </script>
 ```
 
-* 配置代码雨
+* 配置代码雨 <font color=red>这个没有卸载默认里面</font>
 1. 追加css
 ```css
 #content_canvas {
