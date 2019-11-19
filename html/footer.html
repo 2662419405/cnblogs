@@ -2,61 +2,79 @@
 <div id="bottomProgressBar"></div>
 <!-- 音乐菜单 -->
 <link rel="stylesheet" href="https://blog-static.cnblogs.com/files/elkyo/APlayer.min.css">
-  <div id="player" class="aplayer aplayer-withlist aplayer-fixed" data-id="3025663508" data-server="netease" data-type="playlist" data-order="random" data-fixed="true" data-listfolded="true" data-theme="#2D8CF0"></div>
-  <script src="https://blog-static.cnblogs.com/files/elkyo/APlayer.min.js"></script>
-  <script src="https://blog-static.cnblogs.com/files/elkyo/Meting.min.js"></script>
+<div id="player" class="aplayer aplayer-withlist aplayer-fixed" data-id="3025663508" data-server="netease" data-type="playlist" data-order="random" data-fixed="true" data-listfolded="true" data-theme="#2D8CF0"></div>
+<script src="https://blog-static.cnblogs.com/files/elkyo/APlayer.min.js"></script>
+<script src="https://blog-static.cnblogs.com/files/elkyo/Meting.min.js"></script>
 <!-- 网站运行时间 -->
 <p style="text-align:center;"><span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span></p>
 <script>
-    var now = new Date(); 
-    function createtime() { 
-        var grt= new Date("11/06/2019 17:38:00");//在此处修改你的建站时间
-        now.setTime(now.getTime()+250); 
-        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
-        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
-        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
-        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
-        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
-        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-        document.getElementById("timeDate").innerHTML = "本站勉强运行 "+dnum+" 天 "; 
-        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
-    } 
-setInterval("createtime()",250);
+	var now = new Date();
+
+	function createtime() {
+		var grt = new Date("11/06/2019 17:38:00"); //在此处修改你的建站时间
+		now.setTime(now.getTime() + 250);
+		days = (now - grt) / 1000 / 60 / 60 / 24;
+		dnum = Math.floor(days);
+		hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
+		hnum = Math.floor(hours);
+		if(String(hnum).length == 1) {
+			hnum = "0" + hnum;
+		}
+		minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
+		mnum = Math.floor(minutes);
+		if(String(mnum).length == 1) {
+			mnum = "0" + mnum;
+		}
+		seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+		snum = Math.round(seconds);
+		if(String(snum).length == 1) {
+			snum = "0" + snum;
+		}
+		document.getElementById("timeDate").innerHTML = "本站勉强运行 " + dnum + " 天 ";
+		document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+	}
+	setInterval("createtime()", 250);
 </script>
 <!-- 右下角菜单 -->
 <div id="rightMenu"></div>
-   <!--看板娘 - 猫-->
-  <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+<!--看板娘 - 猫-->
+<script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
 <script>
-      L2Dwidget.init({
-          "model": {
-              jsonPath: "https://unpkg.com/live2d-widget-model-hijiki/assets/hijiki.model.json",<!--这里改模型，前面后面都要改-->
-              "scale": 1
-          },
-          "display": {
-              "position": "left",<!--设置看板娘的上下左右位置-->
-              "width": 100,
-              "height": 200,
-              "hOffset": 70,
-              "vOffset": 0
-          },
-          "mobile": {
-              "show": true,
-              "scale": 0.4
-          },
-          "react": {
-              "opacityDefault": 0.5,<!--设置透明度-->
-              "opacityOnHover": 0.2
-          }
-      });
-window.onload=function(){
-       $("#live2dcanvas").attr("style","display:block;position: fixed; opacity: 0.7; left: 70px; bottom: 0px; z-index: 1; pointer-events: none;")
-}
+	L2Dwidget.init({
+		"model": {
+			jsonPath: "https://unpkg.com/live2d-widget-model-hijiki/assets/hijiki.model.json", <!--这里改模型，前面后面都要改-->
+			"scale": 1
+		},
+		"display": {
+			"position": "left", <!--设置看板娘的上下左右位置-->
+			"width": 100,
+			"height": 200,
+			"hOffset": 70,
+			"vOffset": 0
+		},
+		"mobile": {
+			"show": true,
+			"scale": 0.4
+		},
+		"react": {
+			"opacityDefault": 0.5, <!--设置透明度-->
+			"opacityOnHover": 0.2
+		}
+	});
+	window.onload = function() {
+		$("#live2dcanvas").attr("style", "display:block;position: fixed; opacity: 0.7; left: 70px; bottom: 0px; z-index: 1; pointer-events: none;")
+	}
 </script>
 <!-- 线条效果(推荐关闭这个特效,对于手机端影响过大) -->
-<script type="text/javascript"
-color="220,220,220" opacity='0.9' zIndex="-2" count="500" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+<script type="text/javascript" color="220,220,220" opacity='0.9' zIndex="-2" count="500" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
 </script>
 <script type="text/javascript" src="https://blog-static.cnblogs.com/files/sunhang32/myconsole.js"></script>
 <!-- 文字显示 -->
 <script type="text/javascript" src="https://files.cnblogs.com/files/sunhang32/myText.js"></script>
+<!-- 输入框特效 -->
+<script type="text/javascript" src="https://blog-static.cnblogs.com/files/sunhang32/inputPlusChat.js"></script>
+<script>
+	POWERMODE.colorful = 'true'; // make power mode colorful
+	POWERMODE.shake = 'true'; // turn off shake
+	document.body.addEventListener('input', POWERMODE);
+</script>

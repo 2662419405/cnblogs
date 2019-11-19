@@ -8,7 +8,7 @@
 
 ## 如果感觉勉强可以看几眼的话,可以按照一起来配置一下
 
-* 首先你要有一个博客园(估计会github的都应该知道了)
+* 首先你要有一个博客园(估计会`github`的都应该知道了)
 * 在[博客园](https://www.cnblogs.com)的官网左上角开通博客园
 * 博客园的个人配置页面->先申请js权限
 
@@ -27,6 +27,9 @@
 * 粘贴页脚代码 [页脚html](/html/footer.html)
 
 ## 功能
+
+* :construction_worker_man: 键盘按下效果
+
 * :apple: 鼠标指针改变
 * :tangerine: 导航栏自定义
 * :cherries: 恶搞标题
@@ -41,6 +44,7 @@
 * :book: 网站运行时间
 * :shaved_ice: 动态线条背景
 * :strawberry: 背景线条特效
+* :baby:代码雨
 
 ### 电脑效果图展示
 ![电脑效果图1](/img/show.jpg)
@@ -214,4 +218,3 @@ window.onload = function(){
 };
 </script>
 ```
-* 这个还需要手动修改一下css进行微调
