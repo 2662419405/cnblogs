@@ -18,6 +18,10 @@
 
 ![Snipaste_2019-11-13_14-42-25](/img/Snipaste_2019-11-13_14-42-25.png)
 
+* 选择博客主题
+
+![Snipaste_2019-11-21_08-12-32.png](/img/Snipaste_2019-11-21_08-12-32.png)
+
 * 粘贴一下代码到定制页面css代码中 [css](/css/sh.css)
 
 * 粘贴博客侧面公告代码[侧面html](/html/left.html)
