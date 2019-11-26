@@ -44,7 +44,6 @@
 ## 功能
 
 * :construction_worker_man: 键盘按下效果
-
 * :apple: 鼠标指针改变
 * :tangerine: 导航栏自定义
 * :cherries: 恶搞标题
@@ -60,6 +59,7 @@
 * :shaved_ice: 动态线条背景
 * :strawberry: 背景线条特效
 * :baby:代码雨
+* :peach: DaoVoice聊天
 
 ### 电脑效果图展示
 ![电脑效果图1](/img/show.jpg)
