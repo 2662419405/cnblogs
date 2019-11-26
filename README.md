@@ -6,6 +6,17 @@
 
 
 
+<p align="center" style="margin:50px 0;">
+	<img src="https://img.shields.io/badge/language-html-blue" />
+    <img src="https://img.shields.io/badge/build-passing-green"  />
+    <img src="https://img.shields.io/badge/version-v1.2.0-informational" />
+    <img src="https://img.shields.io/badge/codecov-25-red" />
+    <img src="https://img.shields.io/badge/platform-ios%20%7C%20android%20%7C%20widdow%20%7C%20ipad-inactive"  />
+    <img src="https://img.shields.io/badge/weibo-%40SH-blueviolet"  />
+</p>
+
+
+
 ## 如果感觉勉强可以看几眼的话,可以按照一起来配置一下
 
 * 首先你要有一个博客园(估计会`github`的都应该知道了)
