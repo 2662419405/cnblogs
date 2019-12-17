@@ -1,3 +1,7 @@
+
+
+
+
 # 欢迎来到残梦博客园
 
 > 首先声明一点: 样式并不是本人所写,是我个人整合(感觉每个人的博客都喜欢一点,所以自己整合了一下!!!!)
@@ -74,7 +78,7 @@
 
 ### 下面是DIV定制
 
-* 背景线条特效
+* 背景线条特效(这个比较耗费性能,尽量少用,对于手机端影响更大一些)
 ```js
 <script type="text/javascript"
 color="220,220,220" opacity='0.7' zIndex="-2" count="500" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
@@ -85,48 +89,57 @@ color="220,220,220" opacity='0.7' zIndex="-2" count="500" src="//cdn.bootcss.com
 //count数量
 ```
 
-* 背景音乐(页面加载会收到影响)
+* 输入框特效
+
+```js
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/blog.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/POW.js"></script>
+```
+
+* 点击屏幕显示文字特效
+
+```js
+<script type="text/javascript" src="https://files.cnblogs.com/files/sunhang32/myText.js"></script>
+```
+
+* 背景音乐
 ```js
 <link rel="stylesheet" href="https://blog-static.cnblogs.com/files/elkyo/APlayer.min.css">
   <div id="player" class="aplayer aplayer-withlist aplayer-fixed" data-id="3025663508" data-server="netease" data-type="playlist" data-order="random" data-fixed="true" data-listfolded="true" data-theme="#2D8CF0"></div>
   <script src="https://blog-static.cnblogs.com/files/elkyo/APlayer.min.js"></script>
   <script src="https://blog-static.cnblogs.com/files/elkyo/Meting.min.js"></script>
-// 更改data-id可以改变歌曲  
-// 如果想让歌曲在页面加载完播放可以设置
 <script>
-$(".aplayer-play").click()
+$(".aplayer-play").click()   // 如果想让歌曲在页面加载完播放可以设置
 </script>
 ```
 
-* 猫(也是影响页面加载的一个因素)
+> 修改音乐只需要修改data-id即可
+
+<img src="https://cdn.jsdelivr.net/gh/2662419405/imgPlus/Snipaste_2019-12-17_07-59-05.png" />
+<img src="https://cdn.jsdelivr.net/gh/2662419405/imgPlus/Snipaste_2019-12-17_07-59-34.png" />
+
+* 猫
 ```js
- <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
-<script>
-      L2Dwidget.init({
-          "model": {
-              jsonPath: "https://unpkg.com/live2d-widget-model-hijiki/assets/hijiki.model.json",<!--这里改模型，前面后面都要改-->
-              "scale": 1
-          },
-          "display": {
-              "position": "left",<!--设置看板娘的上下左右位置-->
-              "width": 100,
-              "height": 200,
-              "hOffset": 70,
-              "vOffset": 0
-          },
-          "mobile": {
-              "show": true,
-              "scale": 0.5
-          },
-          "react": {
-              "opacityDefault": 0.7,<!--设置透明度-->
-              "opacityOnHover": 0.2
-          }
-      });
-window.onload=function(){
-       $("#live2dcanvas").attr("style","display:block;position: fixed; opacity: 0.7; left: 70px; bottom: 0px; z-index: 1; pointer-events: none;")
-}
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/2662419405/CDN/pio.css" />
+<script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/l2d.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/pioPlus.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/mao.js"></script>
 ```
+
+> 目前猫还存在一点小的bug,但不影响正常使用,我也在不断改进中^-^
+* 右侧直接聊天功能
+
+```js
+<script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/bd4254a0.js","daovoice")</script>
+<script>
+daovoice('init', {
+  app_id: "bd4254a0"
+});
+daovoice('update');
+</script>
+```
+
+这里面的的app_id请到 <a href="http://dashboard.daovoice.io/app/bd4254a0/settings/install">daovoice网站注册获得</a>
 
 * 网站运行时间
 ```html
@@ -149,6 +162,8 @@ window.onload=function(){
 setInterval("createtime()",250);
 </script>
 ```
+
+> 上面的实现修改为自己创建网站的时间,把 p 标签插入到想要显示的区域即可
 
 * 配置代码雨 
 <font color=red>这个没有写在默认里面</font>
@@ -235,3 +250,4 @@ window.onload = function(){
 ```
 
 > 更多的本人效果,可以浏览本人-><a href="https://shtodream.cn">学习博客</a>
+
