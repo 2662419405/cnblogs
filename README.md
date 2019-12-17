@@ -10,7 +10,6 @@
 * 博客园网址 : ----->  [博客园网址](https://www.cnblogs.com/sunhang32)
 
 
-
 <p align="center" style="margin:50px 0;">
 	<img src="https://img.shields.io/badge/language-html-blue" />
     <img src="https://img.shields.io/badge/build-passing-green"  />
@@ -20,33 +19,9 @@
     <img src="https://img.shields.io/badge/weibo-%40SH-blueviolet"  />
 </p>
 
+* 自己如何也弄一个? <a href="#使用说明">使用说明</a>
 
-
-## 如果感觉勉强可以看几眼的话,可以按照一起来配置一下
-
-* 首先你要有一个博客园(估计会`github`的都应该知道了)
-* 在[博客园](https://www.cnblogs.com)的官网左上角开通博客园
-* 博客园的个人配置页面->先申请js权限
-
-![Snipaste_2019-11-13_14-41-38](/img/Snipaste_2019-11-13_14-41-38.png)
-
-* 禁用页面的css样式
-
-![Snipaste_2019-11-13_14-42-25](/img/Snipaste_2019-11-13_14-42-25.png)
-
-* 选择博客主题
-
-![Snipaste_2019-11-21_08-12-32.png](/img/Snipaste_2019-11-21_08-12-32.png)
-
-* 粘贴一下代码到定制页面css代码中 [css](/css/sh.css)
-
-* 粘贴博客侧面公告代码[侧面html](/html/left.html)
-
-* 粘贴页首代码 [页面html](/html/header.html)
-
-* 粘贴页脚代码 [页脚html](/html/footer.html)
-
-## 功能
+## 目前功能
 
 * :construction_worker_man: 键盘按下效果
 * :apple: 鼠标指针改变
@@ -66,13 +41,131 @@
 * :baby:代码雨
 * :peach: DaoVoice聊天
 
-### 电脑效果图展示
-![电脑效果图2](/img/show1.jpg)
-
-## v1.20效果图展示
-![电脑效果图3](/img/120.jpg)
+##  效果图展示
 ![电脑效果图4](/img/130.jpg)
 <img src="/img/140.jpg" height="700px" />
+
+## 如果感觉勉强可以看几眼的话,那么你也来做一个吧
+
+### 使用说明
+
+* 首先你要有一个[博客园](https://www.cnblogs.com)(估计会`github`的都应该知道了)
+* 在[博客园](https://www.cnblogs.com)的官网左上角开通博客园
+* 博客园的个人配置页面->先申请js权限
+
+![Snipaste_2019-11-13_14-41-38](/img/Snipaste_2019-11-13_14-41-38.png)
+
+* 禁用页面的css样式
+
+![Snipaste_2019-11-13_14-42-25](/img/Snipaste_2019-11-13_14-42-25.png)
+
+* 选择博客主题
+
+![Snipaste_2019-11-21_08-12-32.png](/img/Snipaste_2019-11-21_08-12-32.png)
+
+* 粘贴代码到定制页面css代码中 [css](/css/sh.css)
+
+* 粘贴博客侧面公告代码
+```html
+<link rel="stylesheet" type="text/css" href="https://blog-static.cnblogs.com/files/sunhang32/pio.css" />
+<script type="text/javascript">
+    window.cnblogsConfig = {
+        GhVersions    : 'v1.2.0', // 版本
+        blogUser      : "残梦", // 用户名
+        essayCodeHighlightingType: "highlightjs",
+        essayCodeHighlighting: "vs2015",
+        homeTopImg: [
+           "https://cdn.jsdelivr.net/gh/2662419405/imgPlus/o_o_wallhaven-698904.jpg"
+        ],
+         menuUserInfoBgImg: 'https://bndong.github.io/images/menu_bg.gif',
+         menuNavList: [ // 列表数据 ['导航名称', '链接']
+             ['github', 'https://github.com/2662419405'],
+             ['CSDN', 'https://blog.csdn.net/qq_43268396'],
+             ['技能树', 'https://shtodream.cn/about/'],
+             ['留言板', 'https://shtodream.cn/message/'],
+        ],
+        fontIconExtend: "//at.alicdn.com/t/font_543384_ezv3l7gd9r7.css",  //字体图标扩展
+        webpageTitleOnblur        : "(◍´꒳`◍)你为何狠心离去 ", // 当前页失去焦点，页面title显示文字
+        webpageTitleOnblurTimeOut : 500, // 当前页失去焦点，页面title变化，延时时间，单位毫秒
+        webpageTitleFocus         : "(*´∇｀*) 帅的人回来了！", // 当前页获取焦点，页面title显示文字，显示后延时恢复原title
+        webpageTitleFocusTimeOut  : 2000, // 当前页获取焦点，页面title变化，延时时间，单位毫秒
+        blogAvatar    : "https://cdn.jsdelivr.net/gh/2662419405/CDN@1.0/sh.jpg", // 用户头像
+        blogStartDate : "2019-11-07", // 入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@v1.2.0/src/script/simpleMemory.min.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/bd4254a0.js","daovoice")</script>
+<script>
+daovoice('init', {
+  app_id: "bd4254a0"
+});
+daovoice('update');
+</script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/2662419405/CDN/pio.css" />
+```
+
+* 粘贴页首代码 
+```html
+<div class="pio-container" style="left: 50px; bottom: 50px;">
+	<div class="pio-action"></div>
+	<canvas id="pio" style="opacity: 0.6;" width="200px" height="200px"></canvas>
+</div>
+```
+
+* 粘贴页脚代码 
+```html
+<!-- 滚动进度 -->
+<div id="bottomProgressBar"></div>
+<!-- 音乐菜单 -->
+<link rel="stylesheet" href="https://blog-static.cnblogs.com/files/elkyo/APlayer.min.css">
+<div id="player" class="aplayer aplayer-withlist aplayer-fixed" data-id="3025663508" data-server="netease" data-type="playlist" data-order="random" data-fixed="true" data-listfolded="true" data-theme="#2D8CF0"></div>
+<script src="https://blog-static.cnblogs.com/files/elkyo/APlayer.min.js"></script>
+<script src="https://blog-static.cnblogs.com/files/elkyo/Meting.min.js"></script>
+<!-- 网站运行时间 -->
+<p style="text-align:center;"><span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span></p>
+<script>
+	var now = new Date();
+	function createtime() {
+		var grt = new Date("11/06/2019 17:38:00"); //在此处修改你的建站时间
+		now.setTime(now.getTime() + 250);
+		days = (now - grt) / 1000 / 60 / 60 / 24;
+		dnum = Math.floor(days);
+		hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
+		hnum = Math.floor(hours);
+		if(String(hnum).length == 1) {
+			hnum = "0" + hnum;
+		}
+		minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
+		mnum = Math.floor(minutes);
+		if(String(mnum).length == 1) {
+			mnum = "0" + mnum;
+		}
+		seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+		snum = Math.round(seconds);
+		if(String(snum).length == 1) {
+			snum = "0" + snum;
+		}
+		document.getElementById("timeDate").innerHTML = "本站勉强运行 " + dnum + " 天 ";
+		document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+	}
+	setInterval("createtime()", 250);
+</script>
+<!-- 右下角菜单 -->
+<div id="rightMenu"></div>
+<!--看板娘 - 猫-->
+<script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/l2d.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/pioPlus.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/mao.js"></script>
+<!-- 线条效果(推荐关闭这个特效,对于手机端影响过大) -->
+<script type="text/javascript" color="220,220,220" opacity='0.9' zIndex="-2" count="100" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+</script>
+<script type="text/javascript" src="https://blog-static.cnblogs.com/files/sunhang32/ce.js"></script>
+<!-- 文字显示 -->
+<script type="text/javascript" src="https://files.cnblogs.com/files/sunhang32/myText.js"></script>
+<!-- 输入框特效 -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/blog.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/POW.js"></script>
+```
 
 *--------------如果你对你的代码不满意的话,可以接下来自定义设置----------------*
 
