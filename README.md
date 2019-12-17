@@ -20,6 +20,9 @@
 </p>
 
 * 自己如何也弄一个? <a href="#使用说明">使用说明</a>
+* 目前有哪些功能? <a href="#目前功能">目前功能</a>
+* 效果图啥样? <a href="#效果图展示">效果图展示</a>
+* 动动小手点个赞呗,让我有动力继续更新下去,感谢感谢^-^
 
 ## 目前功能
 
@@ -166,6 +169,8 @@ daovoice('update');
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/blog.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/POW.js"></script>
 ```
+
+##### 如果配置成功了,不妨点个赞,咱们一起开心一下,有问题可以发issues^-^
 
 *--------------如果你对你的代码不满意的话,可以接下来自定义设置----------------*
 
