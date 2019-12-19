@@ -44,6 +44,7 @@
 * :peach: DaoVoice聊天
 * :cherries: 自动打代码功能
 * :watermelon: 欢迎访问的人描述
+* :pineapple: 全屏文字抖起来
 
 ##  效果图展示
 ![电脑效果图4](/img/130.jpg)
@@ -114,49 +115,17 @@ daovoice('update');
 ```html
 <!-- 滚动进度 -->
 <div id="bottomProgressBar"></div>
+<!--  文字抖动 -->
+<script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/dou.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/douPlus.js"></script>
 <!-- 音乐菜单 -->
 <link rel="stylesheet" href="https://blog-static.cnblogs.com/files/elkyo/APlayer.min.css">
 <div id="player" class="aplayer aplayer-withlist aplayer-fixed" data-id="3025663508" data-server="netease" data-type="playlist" data-order="random" data-fixed="true" data-listfolded="true" data-theme="#2D8CF0"></div>
 <script src="https://blog-static.cnblogs.com/files/elkyo/APlayer.min.js"></script>
 <script src="https://blog-static.cnblogs.com/files/elkyo/Meting.min.js"></script>
-<!--  自动输入文字 -->
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-<script>
-window.onload=function(){
-	$(".vertical").append("<div id='shContent'><span id='subtitle'></span><span id='typed-cursor'></span></div>")
-	var typed=new Typed("#subtitle",{strings:["Live a good life, write some good code !!!","愿自己的努力终将获得回报","花开不是为了花落，而是为了开的更加灿烂。","没有伞的孩子必须努力奔跑！","欲望以提升热忱，毅力以磨平高山。","如果放弃太早，你永远都不知道自己会错过什么。","没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。"],startDelay:1000,typeSpeed:100,loop:!0,backSpeed:60,backDelay:2000,showCursor:!0})
-	$('.icon-list').append("<div id='shMap'><div>");$('#shMap').html("欢迎来自"+returnCitySN["cname"]+"的朋友"+"<br>您的 IP 是："+returnCitySN["cip"]+"<br>您的 使用的是："+getOSAndBrowser());
-}
-</script>
 <!-- 网站运行时间 -->
 <p style="text-align:center;"><span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span></p>
-<script>
-	var now = new Date();
-	function createtime() {
-		var grt = new Date("11/06/2019 17:38:00"); //在此处修改你的建站时间
-		now.setTime(now.getTime() + 250);
-		days = (now - grt) / 1000 / 60 / 60 / 24;
-		dnum = Math.floor(days);
-		hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
-		hnum = Math.floor(hours);
-		if(String(hnum).length == 1) {
-			hnum = "0" + hnum;
-		}
-		minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
-		mnum = Math.floor(minutes);
-		if(String(mnum).length == 1) {
-			mnum = "0" + mnum;
-		}
-		seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-		snum = Math.round(seconds);
-		if(String(snum).length == 1) {
-			snum = "0" + snum;
-		}
-		document.getElementById("timeDate").innerHTML = "本站勉强运行 " + dnum + " 天 ";
-		document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
-	}
-	setInterval("createtime()", 250);
-</script>
+<script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/time.js"></script>
 <!-- 右下角菜单 -->
 <div id="rightMenu"></div>
 <!--看板娘 - 猫-->
@@ -172,9 +141,18 @@ window.onload=function(){
 <!-- 输入框特效 -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/blog.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/POW.js"></script>
+<!--  自动输入文字 -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script>
+window.onload=function(){
+	$(".vertical").append("<div id='shContent'><span id='subtitle'></span><span id='typed-cursor'></span></div>")
+	var typed=new Typed("#subtitle",{strings:["Live a good life, write some good code !!!","愿自己的努力终将获得回报","花开不是为了花落，而是为了开的更加灿烂。","没有伞的孩子必须努力奔跑！","欲望以提升热忱，毅力以磨平高山。","如果放弃太早，你永远都不知道自己会错过什么。","没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。"],startDelay:1000,typeSpeed:100,loop:!0,backSpeed:60,backDelay:2000,showCursor:!0})
+}
+</script>
 <!-- 右侧访问IP -->
 <script type="text/javascript" src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/Welcome.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/ipPlus.js"></script>
 ```
 
 ##### 如果配置成功了,不妨点个赞,咱们一起开心一下,有问题可以发issues^-^
