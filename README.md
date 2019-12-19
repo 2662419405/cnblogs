@@ -42,6 +42,7 @@
 * :strawberry: 背景线条特效
 * :baby:代码雨
 * :peach: DaoVoice聊天
+* :cherries: 自动打代码功能
 
 ##  效果图展示
 ![电脑效果图4](/img/130.jpg)
@@ -123,6 +124,14 @@ daovoice('update');
 <div id="player" class="aplayer aplayer-withlist aplayer-fixed" data-id="3025663508" data-server="netease" data-type="playlist" data-order="random" data-fixed="true" data-listfolded="true" data-theme="#2D8CF0"></div>
 <script src="https://blog-static.cnblogs.com/files/elkyo/APlayer.min.js"></script>
 <script src="https://blog-static.cnblogs.com/files/elkyo/Meting.min.js"></script>
+<!--  自动输入文字 -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script>
+	window.onload=function(){
+		$(".vertical").append("<div id='shContent'><span id='subtitle'></span><span id='typed-cursor'></span></div>")
+		var typed=new Typed("#subtitle",{strings:["Live a good life, write some good code !!!","愿自己的努力终将获得回报","花开不是为了花落，而是为了开的更加灿烂。","没有伞的孩子必须努力奔跑！","欲望以提升热忱，毅力以磨平高山。","如果放弃太早，你永远都不知道自己会错过什么。","没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。"],startDelay:1000,typeSpeed:100,loop:!0,backSpeed:60,backDelay:2000,showCursor:!0})
+}
+</script>
 <!-- 网站运行时间 -->
 <p style="text-align:center;"><span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span></p>
 <script>
