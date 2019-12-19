@@ -147,12 +147,12 @@ daovoice('update');
 window.onload=function(){
 	$(".vertical").append("<div id='shContent'><span id='subtitle'></span><span id='typed-cursor'></span></div>")
 	var typed=new Typed("#subtitle",{strings:["Live a good life, write some good code !!!","愿自己的努力终将获得回报","花开不是为了花落，而是为了开的更加灿烂。","没有伞的孩子必须努力奔跑！","欲望以提升热忱，毅力以磨平高山。","如果放弃太早，你永远都不知道自己会错过什么。","没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。"],startDelay:1000,typeSpeed:100,loop:!0,backSpeed:60,backDelay:2000,showCursor:!0})
+	$('.icon-list').append("<div id='shMap'><div>");$('#shMap').html("欢迎来自"+returnCitySN["cname"]+"的朋友"+"<br>您的 IP 是："+returnCitySN["cip"]+"<br>您的 使用的是："+getOSAndBrowser());
 }
 </script>
 <!-- 右侧访问IP -->
 <script type="text/javascript" src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/Welcome.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/ipPlus.js"></script>
 ```
 
 ##### 如果配置成功了,不妨点个赞,咱们一起开心一下,有问题可以发issues^-^
