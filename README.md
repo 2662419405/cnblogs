@@ -232,7 +232,7 @@ $(".aplayer-play").click()   // 如果想让歌曲在页面加载完播放可以
 * 猫
 ```js
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/2662419405/CDN/pio.css" />
-<script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/l2d.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/l2dPlus.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/pioPlus.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/mao.js"></script>
 ```
