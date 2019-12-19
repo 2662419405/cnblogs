@@ -56,16 +56,10 @@
 * 首先你要有一个[博客园](https://www.cnblogs.com)(估计会`github`的都应该知道了)
 * 在[博客园](https://www.cnblogs.com)的官网左上角开通博客园
 * 博客园的个人配置页面->先申请js权限
-
-![Snipaste_2019-11-13_14-41-38](/img/Snipaste_2019-11-13_14-41-38.png)
-
 * 禁用页面的css样式
-
-![Snipaste_2019-11-13_14-42-25](/img/Snipaste_2019-11-13_14-42-25.png)
-
 * 选择博客主题
 
-![Snipaste_2019-11-21_08-12-32.png](/img/Snipaste_2019-11-21_08-12-32.png)
+> 以下是代码配置
 
 * 粘贴代码到定制页面css代码中 [css](/css/sh.css)
 
@@ -166,7 +160,7 @@ window.onload=function(){
 <!-- 右下角菜单 -->
 <div id="rightMenu"></div>
 <!--看板娘 - 猫-->
-<script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/l2d.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/l2dPlus.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/pioPlus.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/mao.js"></script>
 <!-- 线条效果(推荐关闭这个特效,对于手机端影响过大) -->
