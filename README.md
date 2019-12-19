@@ -43,6 +43,7 @@
 * :baby:代码雨
 * :peach: DaoVoice聊天
 * :cherries: 自动打代码功能
+* :watermelon: 欢迎访问的人描述
 
 ##  效果图展示
 ![电脑效果图4](/img/130.jpg)
@@ -176,6 +177,9 @@ daovoice('update');
 <!-- 输入框特效 -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/blog.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/POW.js"></script>
+<!-- 右侧访问IP -->
+<script type="text/javascript" src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/shWelcome.js"></script>
 ```
 
 ##### 如果配置成功了,不妨点个赞,咱们一起开心一下,有问题可以发issues^-^
