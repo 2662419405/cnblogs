@@ -47,8 +47,8 @@
 * :green_heart: 全屏文字抖起来
 
 ##  效果图展示
-![电脑效果图4](/img/130.jpg)
-<img src="/img/140.jpg" height="700px" />
+<img src="https://cdn.jsdelivr.net/gh/2662419405/imgPlus/Snipaste_2019-12-20_21-53-58.png" alt="电脑端效果图" />
+<img src="https://cdn.jsdelivr.net/gh/2662419405/imgPlus/Snipaste_2019-12-20_21-54-26.png" alt="手机端效果图" />
 
 ## 如果感觉勉强可以看几眼的话,那么你也来做一个吧
 
