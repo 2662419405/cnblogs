@@ -42,9 +42,9 @@
 * :strawberry: 背景线条特效
 * :baby:代码雨
 * :peach: DaoVoice聊天
-* :cherries: 自动打代码功能
-* :watermelon: 欢迎访问的人描述
-* :pineapple: 全屏文字抖起来
+* :sparkles: 自动打代码功能
+* :memo: 欢迎访问的人描述
+* :green_heart: 全屏文字抖起来
 
 ##  效果图展示
 ![电脑效果图4](/img/130.jpg)
