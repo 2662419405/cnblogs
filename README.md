@@ -34,7 +34,6 @@
 * :pineapple: 左侧点击弹出
 * :watermelon: 页面顶部滚动进度
 * :grapes: 点击页面跳动可爱的文字
-* :lemon: 评论增加聊天表情
 * :tomato: 随笔背景特效
 * :pear: 响应式开发
 * :book: 网站运行时间
@@ -46,6 +45,7 @@
 * :memo: 欢迎访问的人描述
 * :green_heart: 全屏文字抖起来
 * :book: 点击页面显示小豆子
+* :lemon: 右上角关注github
 
 ##  效果图展示
 <img src="https://cdn.jsdelivr.net/gh/2662419405/imgPlus/Snipaste_2019-12-20_21-53-58.png" alt="电脑端效果图" />
@@ -156,6 +156,8 @@ window.onload=function(){
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/Welcome.js"></script>
 <!--点击冒点-->
 <canvas width="1777" height="841" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas><script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/maopao.js"></script>
+<!--关注github-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/githubfork.js"></script>
 ```
 
 ##### 如果配置成功了,不妨点个赞,咱们一起开心一下,有问题可以发issues^-^
@@ -226,6 +228,9 @@ daovoice('update');
 ```
 
 这里面的的app_id请到 <a href="http://dashboard.daovoice.io/app/bd4254a0/settings/install">daovoice网站注册获得</a>
+
+* 添加github关注
+自己去这里面<a href="https://blog.github.com/2008-12-19-github-ribbons/">选择自己喜欢的样式,修改一下自己的github链接,之后添加到页面即可
 
 * 网站运行时间
 ```html
