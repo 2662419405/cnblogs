@@ -4,7 +4,7 @@
 
 # 欢迎来到残梦博客园
 
-> 说明: 这个样式也是我个人学习和搜集了不少,现在分享给大家
+> 说明: 这个样式并非全是自己所写,每个人都学习了一部分
 
 * 博客园网址 : ----->  [博客园网址](https://www.cnblogs.com/sunhang32)
 
@@ -45,6 +45,7 @@
 * :sparkles: 自动打代码功能
 * :memo: 欢迎访问的人描述
 * :green_heart: 全屏文字抖起来
+* :book: 点击页面显示小豆子
 
 ##  效果图展示
 <img src="https://cdn.jsdelivr.net/gh/2662419405/imgPlus/Snipaste_2019-12-20_21-53-58.png" alt="电脑端效果图" />
@@ -153,6 +154,8 @@ window.onload=function(){
 <!-- 右侧访问IP -->
 <script type="text/javascript" src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/Welcome.js"></script>
+<!--点击冒点-->
+<canvas width="1777" height="841" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas><script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/maopao.js"></script>
 ```
 
 ##### 如果配置成功了,不妨点个赞,咱们一起开心一下,有问题可以发issues^-^
