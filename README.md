@@ -111,7 +111,7 @@ daovoice('update');
 	<canvas id="pio" style="opacity: 0.6;" width="200px" height="200px"></canvas>
 </div>
 <button id="btn1">皮一下</button>
-<canvas id="content_canvas" width="1440" height="900" ></canvas>
+<canvas id="content_canvas" width="1440" height="900" style="opacity:0.7;" ></canvas>
 ```
 
 * 粘贴页脚代码 
