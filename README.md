@@ -110,6 +110,8 @@ daovoice('update');
 	<div class="pio-action"></div>
 	<canvas id="pio" style="opacity: 0.6;" width="200px" height="200px"></canvas>
 </div>
+<button id="btn1">皮一下</button>
+<canvas id="content_canvas" width="1440" height="900" ></canvas>
 ```
 
 * 粘贴页脚代码 
@@ -157,7 +159,9 @@ window.onload=function(){
 <!--点击冒点-->
 <canvas width="1777" height="841" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas><script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/maopao.js"></script>
 <!--关注github-->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/githubfork.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/githubfork1.js"></script>
+<!--代码雨-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/daimayu2.js"></script>
 ```
 
 ##### 如果配置成功了,不妨点个赞,咱们一起开心一下,有问题可以发issues^-^
@@ -257,7 +261,6 @@ setInterval("createtime()",250);
 > 上面的实现修改为自己创建网站的时间,把 p 标签插入到想要显示的区域即可
 
 * 配置代码雨 
-<font color=red>这个没有写在默认里面</font>
 1. 追加css
 ```css
 #content_canvas {
