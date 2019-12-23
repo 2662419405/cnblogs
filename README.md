@@ -1,21 +1,32 @@
 
-
-
-
 # 欢迎来到残梦博客园
 
 > 说明: 这个样式并非全是自己所写,每个人都学习了一部分
 
 * 博客园网址 : ----->  [博客园网址](https://www.cnblogs.com/sunhang32)
 
+<div align="center">
+	<a href="https://github.com/2662419405/2662419405.github.io">
+		<img src="https://cdn.jsdelivr.net/gh/2662419405/imgPlus/hexo.png" height="150" style="max-width:100%;" />
+	</a>
+</div>
 
-<p align="center" style="margin:50px 0;">
-	<img src="https://img.shields.io/badge/language-html-blue" />
-    <img src="https://img.shields.io/badge/build-passing-green"  />
-    <img src="https://img.shields.io/badge/version-v1.2.0-informational" />
-    <img src="https://img.shields.io/badge/codecov-25-red" />
-    <img src="https://img.shields.io/badge/platform-ios%20%7C%20android%20%7C%20widdow%20%7C%20ipad-inactive"  />
-    <img src="https://img.shields.io/badge/weibo-%40SH-blueviolet"  />
+<p align="center">
+	<img src="https://img.shields.io/badge/release-v.1.3.1-blue" />
+    <img src="https://img.shields.io/badge/issues-0%20open-green"  />
+    <img src="https://img.shields.io/badge/stars-15-blue" />
+    <img src="https://img.shields.io/badge/forks-9-blue" />
+</p>
+
+<p align="center">
+	<img src="https://img.shields.io/badge/contributors-1-yellow" />
+    <img src="https://img.shields.io/badge/complete-loding-success"  />
+    <img src="https://img.shields.io/badge/last%20commit-yesterday-important" />
+    <img src="https://img.shields.io/badge/link-996icu-red" />
+</p>
+
+<p align="center">
+	<img src="https://img.shields.io/badge/browser-chremo%20|%20firefox%20|%20opera%20|%20safair%20|%20ie>=%20-inactive" />
 </p>
 
 * 自己如何也弄一个? <a href="#使用说明">使用说明</a>
