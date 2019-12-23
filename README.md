@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-	<img src="https://img.shields.io/badge/browser-chremo%20|%20firefox%20|%20opera%20|%20safair%20|%20ie>=%20-inactive" />
+	<img src="https://img.shields.io/badge/browser-chremo%20|%20firefox%20|%20opera%20|%20safair%20|%20ie>=%209-inactive" />
 </p>
 
 ## 欢迎来到残梦博客园
