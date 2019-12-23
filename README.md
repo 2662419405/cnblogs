@@ -1,13 +1,6 @@
-
-# 欢迎来到残梦博客园
-
-> 说明: 这个样式并非全是自己所写,每个人都学习了一部分
-
-* 博客园网址 : ----->  [博客园网址](https://www.cnblogs.com/sunhang32)
-
 <div align="center">
 	<a href="https://github.com/2662419405/2662419405.github.io">
-		<img src="https://cdn.jsdelivr.net/gh/2662419405/imgPlus/hexo.png" height="150" style="max-width:100%;" />
+		<img src="https://cdn.jsdelivr.net/gh/2662419405/imgPlus/logo-(1).png" height="150" style="max-width:100%;" />
 	</a>
 </div>
 
@@ -29,6 +22,11 @@
 	<img src="https://img.shields.io/badge/browser-chremo%20|%20firefox%20|%20opera%20|%20safair%20|%20ie>=%20-inactive" />
 </p>
 
+## 欢迎来到残梦博客园
+
+> 说明: 这个样式并非全是自己所写,每个人都学习了一部分
+
+* 博客园网址 : ----->  [博客园网址](https://www.cnblogs.com/sunhang32)
 * 自己如何也弄一个? <a href="#使用说明">使用说明</a>
 * 目前有哪些功能? <a href="#目前功能">目前功能</a>
 * 效果图啥样? <a href="#效果图展示">效果图展示</a>
