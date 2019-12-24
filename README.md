@@ -53,7 +53,7 @@
 * :sparkles: 自动打代码功能
 * :memo: 欢迎访问的人描述
 * :green_heart: 全屏文字抖起来
-* :book: 点击页面显示小豆子
+* :fire: 点击页面显示小豆子
 * :lemon: 右上角关注github
 
 ##  效果图展示
