@@ -57,8 +57,14 @@
 * :lemon: 右上角关注github
 
 ##  效果图展示
-<img src="https://cdn.jsdelivr.net/gh/2662419405/imgPlus/Snipaste_2019-12-20_21-53-58.png" alt="电脑端效果图" />
-<img src="https://cdn.jsdelivr.net/gh/2662419405/imgPlus/Snipaste_2019-12-20_21-54-26.png" alt="手机端效果图" />
+
+> 电脑端效果图
+
+<img src="/img/Snipaste_2019-12-24_15-35-28.png" alt="电脑端效果图" />
+
+> 手机端效果图
+
+<img src="/img/Snipaste_2019-12-24_15-35-56.png" alt="手机端效果图" />
 
 ## 如果感觉勉强可以看几眼的话,那么你也来做一个吧
 
