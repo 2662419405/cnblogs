@@ -34,7 +34,7 @@
 
 ## 目前功能
 
-* :construction_worker_man: 键盘按下效果
+* :octocat: 键盘按下效果
 * :apple: 鼠标指针改变
 * :tangerine: 导航栏自定义
 * :cherries: 恶搞标题
