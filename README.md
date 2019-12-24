@@ -143,7 +143,7 @@ daovoice('update');
 <!--看板娘 - 猫-->
 <script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/l2dPlus.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/pioPlus.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/mao.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/mao1.js"></script>
 <!-- 线条效果(推荐关闭这个特效,对于手机端影响过大) -->
 <script type="text/javascript" color="220,220,220" opacity='0.9' zIndex="-2" count="100" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
 </script>
