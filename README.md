@@ -7,7 +7,7 @@
 <p align="center">
 	<img src="https://img.shields.io/badge/release-v.1.3.1-blue" />
     <img src="https://img.shields.io/badge/issues-0%20open-green"  />
-    <img src="https://img.shields.io/badge/stars-15-blue" />
+    <img src="https://img.shields.io/badge/stars-16-blue" />
     <img src="https://img.shields.io/badge/forks-9-blue" />
 </p>
 
