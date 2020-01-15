@@ -7,8 +7,8 @@
 <p align="center">
 	<img src="https://img.shields.io/badge/release-v.1.3.1-blue" />
     <img src="https://img.shields.io/badge/issues-0%20open-green"  />
-    <img src="https://img.shields.io/badge/stars-16-blue" />
-    <img src="https://img.shields.io/badge/forks-9-blue" />
+    <img src="https://img.shields.io/badge/stars-23-blue" />
+    <img src="https://img.shields.io/badge/forks-10-blue" />
 </p>
 
 <p align="center">
@@ -358,5 +358,5 @@ window.onload = function(){
 </script>
 ```
 
-> 更多的本人效果,可以浏览本人-><a href="https://shtodream.cn">学习博客</a>
+> 更多的本人效果,可以浏览本人-> <a href="https://sunhang.top">学习博客</a>
 
