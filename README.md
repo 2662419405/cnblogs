@@ -7,8 +7,8 @@
 <p align="center">
 	<img src="https://img.shields.io/badge/release-v.1.3.1-blue" />
     <img src="https://img.shields.io/badge/issues-0%20open-green"  />
-    <img src="https://img.shields.io/badge/stars-24-blue" />
-    <img src="https://img.shields.io/badge/forks-10-blue" />
+    <img src="https://img.shields.io/badge/stars-30-blue" />
+    <img src="https://img.shields.io/badge/forks-14-blue" />
 </p>
 
 <p align="center">
