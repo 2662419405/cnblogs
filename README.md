@@ -138,7 +138,7 @@ daovoice('update');
 <script src="https://cdn.jsdelivr.net/gh/2662419405/CDN/douPlus.js"></script>
 <!-- 音乐菜单 -->
 <link rel="stylesheet" href="https://blog-static.cnblogs.com/files/elkyo/APlayer.min.css">
-<div id="player" class="aplayer aplayer-withlist aplayer-fixed" data-id="3025663508" data-server="netease" data-type="playlist" data-order="random" data-fixed="true" data-listfolded="true" data-theme="#2D8CF0"></div>
+<div id="player" class="aplayer aplayer-withlist aplayer-fixed" data-id="5033426460" data-server="netease" data-type="playlist" data-order="random" data-fixed="true" data-listfolded="true" data-theme="#2D8CF0"></div>
 <script src="https://blog-static.cnblogs.com/files/elkyo/APlayer.min.js"></script>
 <script src="https://blog-static.cnblogs.com/files/elkyo/Meting.min.js"></script>
 <!-- 网站运行时间 -->
