@@ -212,7 +212,7 @@ color="220,220,220" opacity='0.7' zIndex="-2" count="500" src="//cdn.bootcss.com
 * 背景音乐
 ```js
 <link rel="stylesheet" href="https://blog-static.cnblogs.com/files/elkyo/APlayer.min.css">
-  <div id="player" class="aplayer aplayer-withlist aplayer-fixed" data-id="3025663508" data-server="netease" data-type="playlist" data-order="random" data-fixed="true" data-listfolded="true" data-theme="#2D8CF0"></div>
+  <div id="player" class="aplayer aplayer-withlist aplayer-fixed" data-id="5033426460" data-server="netease" data-type="playlist" data-order="random" data-fixed="true" data-listfolded="true" data-theme="#2D8CF0"></div>
   <script src="https://blog-static.cnblogs.com/files/elkyo/APlayer.min.js"></script>
   <script src="https://blog-static.cnblogs.com/files/elkyo/Meting.min.js"></script>
 <script>
