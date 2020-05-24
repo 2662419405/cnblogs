@@ -90,7 +90,7 @@
         essayCodeHighlightingType: "highlightjs",
         essayCodeHighlighting: "vs2015",
         homeTopImg: [
-           "https://cdn.jsdelivr.net/gh/2662419405/imgPlus/o_o_wallhaven-698904.jpg"
+           "http://img.shtodream.cn/37.jpg"
         ],
          menuUserInfoBgImg: 'https://bndong.github.io/images/menu_bg.gif',
          menuNavList: [ // 列表数据 ['导航名称', '链接']
