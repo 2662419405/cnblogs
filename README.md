@@ -249,7 +249,7 @@ daovoice('update');
 这里面的的app_id请到 <a href="http://dashboard.daovoice.io/app/bd4254a0/settings/install">daovoice网站注册获得</a>
 
 * 添加github关注
-自己去这里面<a href="https://blog.github.com/2008-12-19-github-ribbons/">选择自己喜欢的样式,修改一下自己的github链接,之后添加到页面即可
+自己去这里面<a href="https://blog.github.com/2008-12-19-github-ribbons/">选择自己喜欢的样式</a>,修改一下自己的github链接,之后添加到页面即可
 
 * 网站运行时间
 ```html
