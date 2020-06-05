@@ -177,6 +177,9 @@ window.onload=function(){
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/githubfork1.js"></script>
 <!--代码雨-->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2662419405/CDN/daimayu2.js"></script>
+<!-- 速度优化脚本 -->
+<script src="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@2.0.6/js/instantclick-1.2.2.js"></script>
+<script data-no-instant>InstantClick.init();</script>
 ```
 
 ##### 如果配置成功了,不妨点个赞,咱们一起开心一下,有问题可以发issues^-^
