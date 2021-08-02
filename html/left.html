@@ -1,34 +1,46 @@
-<link rel="stylesheet" type="text/css" href="https://blog-static.cnblogs.com/files/sunhang32/pio.css" />
 <script type="text/javascript">
-    window.cnblogsConfig = {
-        GhVersions    : 'v1.2.0', // 版本
-        blogUser      : "残梦", // 用户名
-        essayCodeHighlightingType: "highlightjs",
-        essayCodeHighlighting: "vs2015",
-        homeTopImg: [
-           "https://cdn.jsdelivr.net/gh/2662419405/imgPlus/o_o_wallhaven-698904.jpg"
-        ],
-         menuUserInfoBgImg: 'https://bndong.github.io/images/menu_bg.gif',
-         menuNavList: [ // 列表数据 ['导航名称', '链接']
-             ['github', 'https://github.com/2662419405'],
-             ['CSDN', 'https://blog.csdn.net/qq_43268396'],
-             ['技能树', 'https://shtodream.cn/about/'],
-             ['留言板', 'https://shtodream.cn/message/'],
-        ],
-        fontIconExtend: "//at.alicdn.com/t/font_543384_ezv3l7gd9r7.css",  //字体图标扩展
-        webpageTitleOnblur        : "(◍´꒳`◍)你为何狠心离去 ", // 当前页失去焦点，页面title显示文字
-        webpageTitleOnblurTimeOut : 500, // 当前页失去焦点，页面title变化，延时时间，单位毫秒
-        webpageTitleFocus         : "(*´∇｀*) 帅的人回来了！", // 当前页获取焦点，页面title显示文字，显示后延时恢复原title
-        webpageTitleFocusTimeOut  : 2000, // 当前页获取焦点，页面title变化，延时时间，单位毫秒
-        blogAvatar    : "https://cdn.jsdelivr.net/gh/2662419405/CDN@1.0/sh.jpg", // 用户头像
-        blogStartDate : "2019-11-07", // 入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
+	window.cnblogsConfig = {
+        info: {
+            name: '残梦', // 用户名
+            startDate: '2019-11-07', // 入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
+            avatar: 'https://cdn.jsdelivr.net/gh/2662419405/CDN@1.0/sh.jpg', // 用户头像
+            infoBackground: 'https://bndong.github.io/images/menu_bg.gif',
+        },
+        banner: {
+            home: {
+                title: [
+                    '每一个不曾起舞的日子，都是对生命的辜负。',
+                    '公主死去了，屠龙的少年还在燃烧'
+                ],
+                background: [
+                    "https://raw.githubusercontent.com/2662419405/PicGo_Repository/master/37.jpg",
+                ],
+            },
+        },
+        title:{
+            onblur: '(◍´꒳`◍)你为何狠心离去 ',
+            focus: '(*´∇｀*) 帅的人回来了！',
+        },
+        sidebar: { // 列表数据 ['导航名称', '链接', 'icon']
+            navList: [
+                ['github', 'https://github.com/2662419405', 'icon-github'],
+                ['CSDN', 'https://blog.csdn.net/qq_43268396', 'icon-csdn'],
+                ['个人简历', 'https://sunhang.top/box/jianli/', 'icon-icon_yuedushijian']
+            ],
+        },
     }
 </script>
-<script src="https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@v1.2.0/src/script/simpleMemory.min.js"></script>
-<script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/bd4254a0.js","daovoice")</script>
+<script src="https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@v2.0.5/dist/simpleMemory.js" defer></script>
+<script>
+	(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/bd4254a0.js","daovoice")
+window.onload=function(){
+	$(".vertical").append("<div id='shContent'><span id='subtitle'></span><span id='typed-cursor'></span></div>")
+	var typed=new Typed("#subtitle",{strings:["Live a good life, write some good code !!!","每一个不曾起舞的日子，都是对生命的辜负。","公主死去了，屠龙的少年还在燃烧","愿自己的努力终将获得回报","花开不是为了花落，而是为了开的更加灿烂。","没有伞的孩子必须努力奔跑！","欲望以提升热忱，毅力以磨平高山。","如果放弃太早，你永远都不知道自己会错过什么。","没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。"],startDelay:1000,typeSpeed:100,loop:!0,backSpeed:60,backDelay:2000,showCursor:!0})
+}
+</script>
 <script>
 daovoice('init', {
-  app_id: "bd4254a0"
+    app_id: "bd4254a0"
 });
 daovoice('update');
 </script>
